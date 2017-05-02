@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+}
+
+#menu-section {
+  /* margin-right: -30px; */
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#menu-img {
+  width: 100%;
+  /* margin-left: -15px;
+  margin-right: 15px; */
+}
+#menu-img-div {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+#menu-content {
+  text-align: center;
+}
