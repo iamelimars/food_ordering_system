@@ -1,23 +1,47 @@
 html,
 body {
   height: 100%;
+  background-color: rgb(245, 242, 249);
 }
-
+#hero {
+  height: 80%;
+  background: url('../assets/fire.jpeg') center center no-repeat;
+  background-size: cover;
+}
 #menu-section {
-  /* margin-right: -30px; */
+  width: 100%;
+  /* margin-left: -15px; */
+  /* margin-right: 15px; */
   padding-right: 0px;
   padding-left: 0px;
 }
-
+#menu-background {
+  margin-top: -50px;
+  background: white;
+  -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+}
+.col-sm-12 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 #menu-img {
   width: 100%;
-  /* margin-left: -15px;
-  margin-right: 15px; */
+  padding-right: -15px !important;
+  padding-left: -15px !important;
 }
 #menu-img-div {
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 #menu-content {
   text-align: center;
+}
+#hero2 {
+  height: 60%;
+  background: url('../assets/vegetables.jpeg') center center no-repeat;
+  background-size: cover;
+  /* background: rgb(245, 242, 249); */
+  margin-top: -50px;
 }
